@@ -83,7 +83,7 @@
 <div class="v-line"></div>
 <article id="demo">
 <div class="h-line"></div>
-<p><a href="/demo">demo</p>
+<p><a href="/api">api</p>
 </article>
 </section>
 <footer>
