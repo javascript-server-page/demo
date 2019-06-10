@@ -38,7 +38,7 @@
 <p>jssp.cypto.sha1("123456") = <%=jssp.cypto.sha1("123456")%></p>
 
 <p>//执行命令行</p>
-<p>jssp.exec("echo", "jssp") = <%=jssp.exec("echo", "jssp")%></p>
+<p>jssp.exec(jssp.os == "windows" ? "dir" : "ls") = <%=jssp.exec(jssp.os == "windows" ? "dir" : "ls")%></p>
 
 </body>
 </html>
