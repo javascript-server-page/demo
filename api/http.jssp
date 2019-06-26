@@ -20,15 +20,15 @@
 <body>
 
 <p>//http get请求</p>
-<p>http.get("http://apis.juhe.cn/simpleWeather/query?city=杭州") = <%print(http.get("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
+<p>http.get("http://apis.juhe.cn/simpleWeather/query?city=") = <%print(http.get("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
 <p>//http post请求</p>
-<p>http.post("http://apis.juhe.cn/simpleWeather/query?city=杭州") = <%print(http.post("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
+<p>http.post("http://apis.juhe.cn/simpleWeather/query?city=") = <%print(http.post("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
 <p>//http put请求</p>
-<p>http.put("http://apis.juhe.cn/simpleWeather/query?city=杭州") = <%print(http.put("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
-<p>//http head请求</p>
-<p>http.head("http://apis.juhe.cn/simpleWeather/query?city=杭州") = <%print(http.head("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
+<p>http.put("http://apis.juhe.cn/simpleWeather/query?city=") = <%print(http.put("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
 <p>//http delete请求</p>
-<p>http.delete("http://apis.juhe.cn/simpleWeather/query?city=杭州") = <%print(http.delete("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
+<p>http.delete("http://apis.juhe.cn/simpleWeather/query?city=") = <%print(http.delete("http://apis.juhe.cn/simpleWeather/query?city="))%></p>
 
+<p>//http get请求</p>
+<p>http.get("http://apis.juhe.cn/simpleWeather/query", {"city": "杭州"}) = <%print(http.get("http://apis.juhe.cn/simpleWeather/query", {"city": "杭州"}))%></p>
 </body>
 </html>
